@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainScreen"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="562dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="80dp"
+                android:text="Factor"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="80dp"
+                android:text="Prefix"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="80dp"
+                android:text="Symbol"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="60dp"
+                android:text="10⁹"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="60dp"
+                android:text="giga-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="60dp"
+                android:text="G"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10⁶"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="mega-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="M"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10³"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="kilo-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="K"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10⁻²"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="centi-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="c"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10⁻³"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="milli-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="m"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10⁻⁶"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="micro-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="µ"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10⁻⁹"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="nano-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="n"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/columnOne"
+                android:paddingRight="30dp"
+                android:text="10⁻¹²"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/columnTwo"
+                android:paddingRight="30dp"
+                android:text="pico-"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/columnThree"
+                android:paddingRight="30dp"
+                android:text="p"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/button"
+        android:onClick="findLength"
+        android:text="Length"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/button"
+        android:onClick="findVolume"
+        android:text="Volume"
+        app:layout_constraintStart_toEndOf="@+id/btnLength"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/button"
+        android:onClick="findMass"
+        android:text="mass"
+        app:layout_constraintStart_toEndOf="@+id/btnVolume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/button"
+        android:onClick="findMoney"
+        android:text="temperature "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/btnMass"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
